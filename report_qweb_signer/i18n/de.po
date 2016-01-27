@@ -1,0 +1,162 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* report_qweb_signer
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-11-22 19:28+0000\n"
+"PO-Revision-Date: 2016-01-27 15:55+0100\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: de\n"
+"X-Generator: Poedit 1.8.4\n"
+
+#. module: report_qweb_signer
+#: field:report.certificate,allow_only_one:0
+msgid "Allow only one document"
+msgstr "Erlaube nur ein Dokument"
+
+#. module: report_qweb_signer
+#: field:report.certificate,path:0
+msgid "Certificate file path"
+msgstr "Zertifikat-Dateipfad"
+
+#. module: report_qweb_signer
+#: view:res.company:report_qweb_signer.view_company_form
+msgid "Certificates"
+msgstr "Zertifikate"
+
+#. module: report_qweb_signer
+#: model:ir.model,name:report_qweb_signer.model_res_company
+msgid "Companies"
+msgstr "Unternehmen"
+
+#. module: report_qweb_signer
+#: field:report.certificate,company_id:0
+msgid "Company"
+msgstr "Unternehmen"
+
+#. module: report_qweb_signer
+#: field:report.certificate,create_uid:0
+msgid "Created by"
+msgstr "Angelegt durch"
+
+#. module: report_qweb_signer
+#: field:report.certificate,create_date:0
+msgid "Created on"
+msgstr "Angelegt am"
+
+#. module: report_qweb_signer
+#: field:report.certificate,domain:0
+msgid "Domain"
+msgstr "Domäne"
+
+#. module: report_qweb_signer
+#: help:report.certificate,domain:0
+msgid "Domain for filtering if sign or not the document"
+msgstr "Domäne zum Filtern, welche Dokumente unterzeichnet werden"
+
+#. module: report_qweb_signer
+#: help:report.certificate,attachment:0
+msgid "Filename used to store signed document as attachment. Keep empty to not save signed document."
+msgstr "Für das Speichern des unterzeichneten Dokuments zu verwendender Dateiname. Leer lassen, um nicht zu speichern."
+
+#. module: report_qweb_signer
+#: field:report.certificate,id:0
+msgid "ID"
+msgstr "ID"
+
+#. module: report_qweb_signer
+#: help:report.certificate,allow_only_one:0
+msgid "If True, this certificate can not be used to sign a PDF from several documents."
+msgstr "Wenn wahr, darf dieses Zertifikat nicht abzeichnen mehrfacher Dokumente verwendet werden."
+
+#. module: report_qweb_signer
+#: field:report.certificate,write_uid:0
+msgid "Last Updated by"
+msgstr "Zuletzt aktualisiert durch"
+
+#. module: report_qweb_signer
+#: field:report.certificate,write_date:0
+msgid "Last Updated on"
+msgstr "Zuletzt aktualisiert am"
+
+#. module: report_qweb_signer
+#: field:report.certificate,model_id:0
+msgid "Model"
+msgstr "Modell"
+
+#. module: report_qweb_signer
+#: help:report.certificate,model_id:0
+msgid "Model where apply this certificate"
+msgstr "Modell, auf das dieses Zertifikat angewendet werden soll"
+
+#. module: report_qweb_signer
+#: field:report.certificate,name:0
+msgid "Name"
+msgstr "Bezeichner"
+
+#. module: report_qweb_signer
+#: model:ir.actions.act_window,name:report_qweb_signer.action_report_certificate
+#: model:ir.ui.menu,name:report_qweb_signer.menu_report_certificate
+msgid "PDF certificates"
+msgstr "PDF-Zertifikat"
+
+#. module: report_qweb_signer
+#: view:report.certificate:report_qweb_signer.view_report_certificate_form
+msgid "PDF report certificate"
+msgstr "PDF-Berichtszertifikat"
+
+#. module: report_qweb_signer
+#: view:report.certificate:report_qweb_signer.view_report_certificate_tree
+#: field:res.company,report_certificate_ids:0
+msgid "PDF report certificates"
+msgstr "PDF-Berichtszertifikate"
+
+#. module: report_qweb_signer
+#: field:report.certificate,password_file:0
+msgid "Password file path"
+msgstr "Passwort-Dateipfad"
+
+#. module: report_qweb_signer
+#: help:report.certificate,path:0
+msgid "Path to PKCS#12 certificate file"
+msgstr "Pfad zur PKCS#12-Zertifikatsdatei"
+
+#. module: report_qweb_signer
+#: help:report.certificate,password_file:0
+msgid "Path to certificate password file"
+msgstr "Pfad zur Zertifikats-Passwortdatei"
+
+#. module: report_qweb_signer
+#: code:addons/report_qweb_signer/models/report.py:77
+#, python-format
+msgid "PortableSigner failed (error code: %s). Message: %s"
+msgstr "Portabler Unterzeichner scheiterte (Fehlercode: %s). Meldung: %s"
+
+#. module: report_qweb_signer
+#: model:ir.model,name:report_qweb_signer.model_report
+msgid "Report"
+msgstr "Bericht"
+
+#. module: report_qweb_signer
+#: field:report.certificate,attachment:0
+msgid "Save as attachment"
+msgstr "Als Anhang speichern"
+
+#. module: report_qweb_signer
+#: field:report.certificate,sequence:0
+msgid "Sequence"
+msgstr "Nummerkreis"
+
+#. module: report_qweb_signer
+#: code:addons/report_qweb_signer/models/report.py:76
+#, python-format
+msgid "Signing report (PDF)"
+msgstr "Bericht Unterscheiben (PDF)"
